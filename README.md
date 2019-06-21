@@ -1,2 +1,8 @@
 # ChineseSimplified-for-Power-
 ChineseSimplified for Power++
+
+ChineseSimplified for Power++
+
+我认为这是本年度最佳MDO，没有之一，突破现有科技，使得玩家可以拜托电缆的限制，他是完美的
+
+I think this is the best MDO of the year, Not one of them.It breaking through the existing technology, so that players can get rid of the limitations of the cable.It is perfectly.
