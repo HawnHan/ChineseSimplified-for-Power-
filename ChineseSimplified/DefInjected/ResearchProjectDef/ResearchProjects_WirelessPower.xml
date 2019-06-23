@@ -37,5 +37,8 @@
   <ARKPPP_HackingSatelliteNetworkAD.label>远古能量接收器</ARKPPP_HackingSatelliteNetworkAD.label>
   <ARKPPP_HackingSatelliteNetworkAD.description>允许你建造巨大的远古能量接收器。</ARKPPP_HackingSatelliteNetworkAD.description>
 
+  <ARKPPP_HackingSatelliteNetworkLens.label>光束渲染镜</ARKPPP_HackingSatelliteNetworkLens.label>
+  <ARKPPP_HackingSatelliteNetworkLens.description>允许你改变能量束的颜色</ARKPPP_HackingSatelliteNetworkLens.description>
+
 
 </LanguageData>

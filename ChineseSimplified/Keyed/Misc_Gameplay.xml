@@ -211,7 +211,7 @@
   <ARKPPP_AlertSTSDown>警告：STS脱机！</ARKPPP_AlertSTSDown>
   <ARKPPP_AlertSTSDownDesc>你的一个或多个已连接轨道的ADs的目标系统（STS）脱机，这十分危险，因为与卫星的粗鲁不同步会导致轨道导向错误或扩大轨道束。</ARKPPP_AlertSTSDownDesc>
   <ARKPPP_AlertADDown>警告：AD脱机！</ARKPPP_AlertADDown>
-  <ARKPPP_AlertADDownDesc>你的一个或多个ADs在轨道束处于激活状态时脱机，这十分危险，因为与卫星的粗鲁不同步会导致轨道导向错误或扩大轨道束。</ARKPPP_AlertADDownDesc>
+  <ARKPPP_AlertADDownDesc>你的一个或多个AD在轨道束处于激活状态时脱机，这十分危险，因为与卫星的粗鲁不同步会导致轨道导向错误或扩大轨道束。</ARKPPP_AlertADDownDesc>
   <ARKPPP_AlertSatelliteBlacklisted>访问卫星网络受阻</ARKPPP_AlertSatelliteBlacklisted>
   <ARKPPP_AlertSatelliteBlacklistedDesc>你所处的行星当前处于黑名单中，你再也不能连接了。</ARKPPP_AlertSatelliteBlacklistedDesc>
   <ARKPPP_AlertADOverload>远古能量接收器超载</ARKPPP_AlertADOverload>
@@ -303,9 +303,9 @@
   <ARKPPP_SettingsARESNeededEnergyV1>ARES 1.0的电池储备能量需求({0} W)</ARKPPP_SettingsARESNeededEnergyV1>
   <ARKPPP_SettingsARESNeededEnergyV2>ARES 2.0的电池储备能量需求({0} W)</ARKPPP_SettingsARESNeededEnergyV2>
   <ARKPPP_SettingsARESNeededEnergyV3>ARES EMP的电池储备能量需求({0} W)</ARKPPP_SettingsARESNeededEnergyV3>
-  <ARKPPP_SettingsChancePBEDilatation1>强度为1的能量束出现扩大的几率({0}%)</ARKPPP_SettingsChancePBEDilatation1>
-  <ARKPPP_SettingsChancePBEDilatation2>强度为2的能量束出现扩大的几率({0}%)</ARKPPP_SettingsChancePBEDilatation2>
-  <ARKPPP_SettingsChancePBEDilatation3>强度为3的能量束出现扩大的几率({0}%)</ARKPPP_SettingsChancePBEDilatation3>
+  <ARKPPP_SettingsChancePBEDilatation1>强度为1的能量束直径扩大几率({0}%)</ARKPPP_SettingsChancePBEDilatation1>
+  <ARKPPP_SettingsChancePBEDilatation2>强度为2的能量束直径扩大几率({0}%)</ARKPPP_SettingsChancePBEDilatation2>
+  <ARKPPP_SettingsChancePBEDilatation3>强度为3的能量束直径扩大几率({0}%)</ARKPPP_SettingsChancePBEDilatation3>
   <ARKPPP_SettingsChancePBEAimingError>多个能量束导向错误几率({0}%)</ARKPPP_SettingsChancePBEAimingError>
   <ARKPPP_SettingsChancePBEEMP>EMP几率({0}%)</ARKPPP_SettingsChancePBEEMP>
 
@@ -322,5 +322,16 @@
   <ARKPPP_SettingsMaxHourBeforeMeltdown>STS运行温度过高时融化的最长时间({0} h)</ARKPPP_SettingsMaxHourBeforeMeltdown>
   <ARKPPP_SettingsDisablePBEShaking>禁用光束屏幕晃动</ARKPPP_SettingsDisablePBEShaking>
   <ARKPPP_SettingsWPNReceiverDontWorkUnderRoof>WPN无法在屋顶下运作</ARKPPP_SettingsWPNReceiverDontWorkUnderRoof>
+  <ARKPPP_SettingsDisablePBESky>禁用地图的天空照明</ARKPPP_SettingsDisablePBESky>
+  <ARKPPP_SettingsARESTHunderColor>ARES雷暴颜色</ARKPPP_SettingsARESTHunderColor>
+  <ARKPPP_SettingsPBEGlare>能量束亮度({0}%)</ARKPPP_SettingsPBEGlare>
+
+  <!-- Beam colors -->
+  <ARKPPP_BeamColorRed>红色</ARKPPP_BeamColorRed>
+  <ARKPPP_BeamColorPurple>紫色</ARKPPP_BeamColorPurple>
+  <ARKPPP_BeamColorBlue>蓝色</ARKPPP_BeamColorBlue>
+  <ARKPPP_BeamColorGreen>绿色</ARKPPP_BeamColorGreen>
+  <ARKPPP_BeamColorYellow>黄色</ARKPPP_BeamColorYellow>
+  <ARKPPP_BeamColorDefault>默认</ARKPPP_BeamColorDefault>
 
 </LanguageData>
