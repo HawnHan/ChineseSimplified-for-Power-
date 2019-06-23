@@ -1,4 +1,4 @@
-# ChineseSimplified-for-Power-
+# ChineseSimplified-for-Power++
 ChineseSimplified for Power++
 
 我认为这是本年度最佳MDO，没有之一，突破现有科技，使得玩家可以拜托电缆的限制，他是完美的。因此我将其翻译为简体中文，希望能更快速被更多人接受。
