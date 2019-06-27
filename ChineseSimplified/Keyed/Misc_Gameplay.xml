@@ -325,6 +325,14 @@
   <ARKPPP_SettingsDisablePBESky>禁用地图的天空照明</ARKPPP_SettingsDisablePBESky>
   <ARKPPP_SettingsARESTHunderColor>ARES雷暴颜色</ARKPPP_SettingsARESTHunderColor>
   <ARKPPP_SettingsPBEGlare>能量束亮度({0}%)</ARKPPP_SettingsPBEGlare>
+  <ARKPPP_SettingsPBEMute>能量束静音</ARKPPP_SettingsPBEMute>
+  <ARKPPP_SettingsWattBasePrice>基准价（每天）</ARKPPP_SettingsWattBasePrice>
+  <ARKPPP_SettingsWattBasePriceAlly>盟军</ARKPPP_SettingsWattBasePriceAlly>
+  <ARKPPP_SettingsWattBasePriceNeutral>中立势力</ARKPPP_SettingsWattBasePriceNeutral>
+  <ARKPPP_SettingsWattBasePriceEnemy>敌对势力</ARKPPP_SettingsWattBasePriceEnemy>
+  <ARKPPP_SettingsFactionsOfferRenew>续约</ARKPPP_SettingsFactionsOfferRenew>
+  <ARKPPP_SettingsFactionsOfferRenewMin>最小天数({0}天)</ARKPPP_SettingsFactionsOfferRenewMin>
+  <ARKPPP_SettingsFactionsOfferRenewMax>最大天数({0}天)</ARKPPP_SettingsFactionsOfferRenewMax>
 
   <!-- Beam colors -->
   <ARKPPP_BeamColorRed>红色</ARKPPP_BeamColorRed>
