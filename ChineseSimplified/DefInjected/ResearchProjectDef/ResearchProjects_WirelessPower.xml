@@ -40,5 +40,8 @@
   <ARKPPP_HackingSatelliteNetworkLens.label>光束渲染镜</ARKPPP_HackingSatelliteNetworkLens.label>
   <ARKPPP_HackingSatelliteNetworkLens.description>允许你改变能量束的颜色</ARKPPP_HackingSatelliteNetworkLens.description>
 
+  <ARKPPP_HackingSatelliteNetworkADRT.label>远程能量接收器</ARKPPP_HackingSatelliteNetworkADRT.label>
+  <ARKPPP_HackingSatelliteNetworkADRT.description>允许你建造远程连接STS和AD的AD基站。</ARKPPP_HackingSatelliteNetworkADRT.description>
+
 
 </LanguageData>

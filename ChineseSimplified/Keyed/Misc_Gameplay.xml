@@ -5,6 +5,12 @@
   <ARKPPP_IdenticalAlias>已存在一个相同的名称!</ARKPPP_IdenticalAlias>
   <ARKPPP_WPNAlias>WPN名称</ARKPPP_WPNAlias>
   <ARKPPP_LWPNAlias>LWPN名称</ARKPPP_LWPNAlias>
+  <ARKPPP_LWPNMigrate>转移LWPN</ARKPPP_LWPNMigrate>
+  <ARKPPP_LWPNMigrateDesc>允许你将已分配给你输入LWPN ID（输入的数字ID不包括开头的0，如：LWPN-001=&gt; 1）的所有电器设备转移到当前LWPN发射器发出的LWPN。</ARKPPP_LWPNMigrateDesc>
+  <ARKPPP_LWPNMigrateInvalidLWPN>你需要输入一个有效的LWPN ID（如：LWPN-001，输入“1”即可）</ARKPPP_LWPNMigrateInvalidLWPN>
+  <ARKPPP_LWPNMigrateSuccess>{0} 个设备已转移到所选发射器的LWPN。</ARKPPP_LWPNMigrateSuccess>
+  <ARKPPP_LWPNMigrateSuccessNoDevice>无可以从该LWPN ID迁移的设备！</ARKPPP_LWPNMigrateSuccessNoDevice>
+  <ARKPPP_LWPNMigrateInvalidLWPNSame>输入的LWPN ID与当前LWPN发射器一致，请输入另一个LWPN ID！</ARKPPP_LWPNMigrateInvalidLWPNSame>
   <ARKPPP_WPNDescAlias>给此WPN起个易于识别的名称</ARKPPP_WPNDescAlias>
   <ARKPPP_LWPNDescAlias>给此LWPN起个易于识别的名称</ARKPPP_LWPNDescAlias>
   <ARKPPP_NotConnectedToWirelessPower>未连接到WPN</ARKPPP_NotConnectedToWirelessPower>
@@ -56,11 +62,15 @@
   <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverTitle>白银不足以支付</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverTitle>
   <ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverDesc>你没有足够的钱违约，你想在不支付任何费用的情况下违约吗？这将会让合同另一方十分失望！</ARKPPP_FactionPlayerWantStopBorrowedWPNDialogCancelNotEnoughtSilverDesc>
 
-  <ARKPPP_CompHotSensitiveHot3Text>温度过高！</ARKPPP_CompHotSensitiveHot3Text>
-  <ARKPPP_CompHotSensitiveHot2Text>高温警告</ARKPPP_CompHotSensitiveHot2Text>
-  <ARKPPP_CompHotSensitiveHot1Text>温度有点高</ARKPPP_CompHotSensitiveHot1Text>
+  <ARKPPP_CompHotSensitiveHot3Text>温度过高！(Ⅰ)</ARKPPP_CompHotSensitiveHot3Text>
+  <ARKPPP_CompHotSensitiveHot2Text>高温警告(Ⅱ)</ARKPPP_CompHotSensitiveHot2Text>
+  <ARKPPP_CompHotSensitiveHot1Text>温度偏高(Ⅲ)</ARKPPP_CompHotSensitiveHot1Text>
   <ARKPPP_CompHotSensitiveHot0Text>理想操作温度</ARKPPP_CompHotSensitiveHot0Text>
   <ARKPPP_DialogBadInput>输入的数据无效！无法完成操作！</ARKPPP_DialogBadInput>
+  <ARKPPP_BeamTargetMapSelector>选择目标小地图</ARKPPP_BeamTargetMapSelector>
+  <ARKPPP_BeamTargetThisMap>当前地图</ARKPPP_BeamTargetThisMap>
+  <ARKPPP_BeamTargetGizmo>能量束武器</ARKPPP_BeamTargetGizmo>
+  <ARKPPP_BeamTargetGizmoDesc>通过骇入将轨道能量束作为武器使用，通过定位虚假的远古能量接收器位置实现。</ARKPPP_BeamTargetGizmoDesc>
 
   <!-- Absorbption Dish -->
   <ARKPPP_ADPowerOn>启动</ARKPPP_ADPowerOn>
@@ -79,10 +89,11 @@
   <ARKPPP_STSCompStringNotLinked>未连接！</ARKPPP_STSCompStringNotLinked>
   <ARKPPP_STSCompStringADStartSequence>启动程序进度 {0}%</ARKPPP_STSCompStringADStartSequence>
   <ARKPPP_STSCompStringADStopSequence>关闭程序进度 {0}%</ARKPPP_STSCompStringADStopSequence>
-  <ARKPPP_STSCompStringADStarted>远古能量接收器已启动</ARKPPP_STSCompStringADStarted>
-  <ARKPPP_STSCompStringADStopped>远古能量接收器已停止</ARKPPP_STSCompStringADStopped>
+  <ARKPPP_STSCompStringADStarted>连接的AD正在工作</ARKPPP_STSCompStringADStarted>
+  <ARKPPP_STSCompStringADStopped>连接的AD未工作</ARKPPP_STSCompStringADStopped>
   <ARKPPP_ADSTSOfflineWarning>警告：卫星不同步前卫星导向系统脱机，{0}</ARKPPP_ADSTSOfflineWarning>
   <ARKPPP_ADOfflineWarning>警告：卫星不同步前远古能量接收器脱机，{0}</ARKPPP_ADOfflineWarning>
+  <ARKPPP_STSCompStringSatelliteTemporaryBlocking>所连接的卫星已阻止该STS，因为违反了使用协议中的一项。（剩余 {0}）</ARKPPP_STSCompStringSatelliteTemporaryBlocking>
 
   <!-- Planned Incidents -->
   <ARKPPP_IncidentMechanoidWarshipLabel>机械战舰</ARKPPP_IncidentMechanoidWarshipLabel>
@@ -117,6 +128,9 @@
   <ARKPPP_MsgCannotChangeADWhileSTSOn>当STS联网时无法更改已连接的AD</ARKPPP_MsgCannotChangeADWhileSTSOn>
   <ARKPPP_MsgCannotuseARESWhenAnotherStarted>无法在同一地图上同时激活多个ARES设备</ARKPPP_MsgCannotuseARESWhenAnotherStarted>
   <ARKPPP_MsgWPNCannotBeUnderRoof>WPN无法在屋顶下运作！</ARKPPP_MsgWPNCannotBeUnderRoof>
+  <ARKPPP_MsgBeamWeaponCost>你至少需要{0} W已储备能量在当前电网中！</ARKPPP_MsgBeamWeaponCost>
+  <ARKPPP_MsgBeamWeaponCooldownEnd>短期卫星封锁结束于 {0} 后。</ARKPPP_MsgBeamWeaponCooldownEnd>
+
 
   <!-- LetterDef -->
   <ARKPPP_LetterEmbargo>电力禁令</ARKPPP_LetterEmbargo>
@@ -178,11 +192,14 @@
   <ARKPPP_LetterWPNRentedByFactionContractBreachDescProrata>尽管你的行为如此，他们依旧想支付已消耗的电力比例</ARKPPP_LetterWPNRentedByFactionContractBreachDescProrata>
   <ARKPPP_LetterFactionPayRentedWPN>付款</ARKPPP_LetterFactionPayRentedWPN>
   <ARKPPP_LetterFactionPayRentedWPNDesc>{0} 因租用 {2} 向你支付 {1} 白银。</ARKPPP_LetterFactionPayRentedWPNDesc>
-  <ARKPPP_LetterFactionPayRentedWPNPart1Desc>（为 {2} 无效供电付款：{0} - {1}）</ARKPPP_LetterFactionPayRentedWPNPart1Desc>
+  <ARKPPP_LetterFactionPayRentedWPNPart1Desc>（{0} - {1}，因有 {2} 无效供电）</ARKPPP_LetterFactionPayRentedWPNPart1Desc>
   <ARKPPP_LetterFactionDontPayRentedWPN>拒绝付款</ARKPPP_LetterFactionDontPayRentedWPN>
   <ARKPPP_LetterFactionDontPayRentedWPNDesc>{0} 不想支付 {1} 的租用费用，因为他们说该WPN提供的电力质量太差（中断次数太多，所供电力不符合合同规定，...）</ARKPPP_LetterFactionDontPayRentedWPNDesc>
   <ARKPPP_LetterEmbargoEnd>禁令结束</ARKPPP_LetterEmbargoEnd>
   <ARKPPP_LetterEmbargoEndDesc>与 {0} 的禁令结束了</ARKPPP_LetterEmbargoEndDesc>
+  <ARKPPP_LetterSTSHackDetected>STS骇入被发现</ARKPPP_LetterSTSHackDetected>
+  <ARKPPP_LetterSTSHackDetectedDesc>卫星已检测到来自你的某个STS骇入意图，显然是因长时间运行于高温环境下，这违反了连接协议。卫星针对你的STS发起了防御回击。后者的坐标将会被轨道能量束击中。</ARKPPP_LetterSTSHackDetectedDesc>
+
 
   <!--Resume dialog-->
   <ARKPPP_ResumeDialogUnsecureSection>不安全的WPN</ARKPPP_ResumeDialogUnsecureSection>
@@ -216,7 +233,7 @@
   <ARKPPP_AlertSatelliteBlacklistedDesc>你所处的行星当前处于黑名单中，你再也不能连接了。</ARKPPP_AlertSatelliteBlacklistedDesc>
   <ARKPPP_AlertADOverload>远古能量接收器超载</ARKPPP_AlertADOverload>
   <ARKPPP_AlertADOverloadDesc>警告：你的一个或多个远古能量接收器已超载，如果期间出现电源故障或太阳耀斑，将显著增加与卫星网络粗鲁的不同步风险</ARKPPP_AlertADOverloadDesc>
-
+  <ARKPPP_AlertbeamAttack>轨道束于 {0} 后到达</ARKPPP_AlertbeamAttack>
 
   <!-- Negative event after computer STS melting down -->
   <ARKPPP_STSOverheating>STS超载</ARKPPP_STSOverheating>
@@ -262,10 +279,10 @@
   <ARKPPP_SettingsSectionARES>A.R.E.S（远程能源风暴系统）</ARKPPP_SettingsSectionARES>
   <ARKPPP_SettingsSectionFactionPower>派系：科技水平功率</ARKPPP_SettingsSectionFactionPower>
 
-  <ARKPPP_SettingsMinHour>最小小时数 ({0} 小时)</ARKPPP_SettingsMinHour>
-  <ARKPPP_SettingsMaxHour>最大小时数 ({0}h)</ARKPPP_SettingsMaxHour>
-  <ARKPPP_SettingsMinDay>最小持续时间({0} 天)</ARKPPP_SettingsMinDay>
-  <ARKPPP_SettingsMaxDay>最大持续时间 ({0} 天)</ARKPPP_SettingsMaxDay>
+  <ARKPPP_SettingsMinHour>最小小时数 ({0}小时)</ARKPPP_SettingsMinHour>
+  <ARKPPP_SettingsMaxHour>最大小时数 ({0}小时)</ARKPPP_SettingsMaxHour>
+  <ARKPPP_SettingsMinDay>最小持续时间({0}天)</ARKPPP_SettingsMinDay>
+  <ARKPPP_SettingsMaxDay>最大持续时间 ({0}天)</ARKPPP_SettingsMaxDay>
   <ARKPPP_SettingsMinWatt>最小传输瓦数({0} W)</ARKPPP_SettingsMinWatt>
   <ARKPPP_SettingsMaxWatt>最大传输瓦数({0} W)</ARKPPP_SettingsMaxWatt>
   <ARKPPP_SettingsSupernovaChanceGood>好结果几率 ({0}%)</ARKPPP_SettingsSupernovaChanceGood>
@@ -333,6 +350,14 @@
   <ARKPPP_SettingsFactionsOfferRenew>续约</ARKPPP_SettingsFactionsOfferRenew>
   <ARKPPP_SettingsFactionsOfferRenewMin>最小天数({0}天)</ARKPPP_SettingsFactionsOfferRenewMin>
   <ARKPPP_SettingsFactionsOfferRenewMax>最大天数({0}天)</ARKPPP_SettingsFactionsOfferRenewMax>
+  <ARKPPP_SettingsPBEWattNeededAttack>启动等级 {0} 能量束攻击所需的电池储量（W）</ARKPPP_SettingsPBEWattNeededAttack>
+  <ARKPPP_SettingsPBEBeamAttackHot1ChanceTargetError>温度偏高(Ⅰ)导致出现轨道导向错误的几率({0}%)</ARKPPP_SettingsPBEBeamAttackHot1ChanceTargetError>
+  <ARKPPP_SettingsPBEBeamAttackHot2ChanceTargetError>高温(Ⅱ)导致出现轨道导向错误的几率({0}%)</ARKPPP_SettingsPBEBeamAttackHot2ChanceTargetError>
+  <ARKPPP_SettingsPBEBeamAttackHot3ChanceTargetError>温度过高(Ⅲ)导致出现轨道导向错误的几率({0}%)</ARKPPP_SettingsPBEBeamAttackHot3ChanceTargetError>
+  <ARKPPP_SettingsPBEAttackCooldownMin>能量束攻击后最短等待时间（短期卫星封锁）({0}小时)</ARKPPP_SettingsPBEAttackCooldownMin>
+  <ARKPPP_SettingsPBEAttackCooldownMax>能量束攻击后最长等待时间（短期卫星封锁）({0}小时)</ARKPPP_SettingsPBEAttackCooldownMax>
+  <ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>STS发生骇入错误前在高温环境运行的时间({0}小时)</ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>
+  <ARKPPP_SettingsPBEDisableBlacklisting>禁用行星黑名单事件</ARKPPP_SettingsPBEDisableBlacklisting>
 
   <!-- Beam colors -->
   <ARKPPP_BeamColorRed>红色</ARKPPP_BeamColorRed>

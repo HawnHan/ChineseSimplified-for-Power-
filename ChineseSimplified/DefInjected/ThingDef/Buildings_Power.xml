@@ -66,4 +66,13 @@
   <ARKPPP_PowerBeamSatelliteTargetingSystem_Frame.description>用于骇入和控制一颗远古卫星的超级计算机。除必须不断冷却之外，不应突然出现与卫星不同步的情况，这会产生非常严重的后果。因此必须始终遵循启动和停止的初始程序！</ARKPPP_PowerBeamSatelliteTargetingSystem_Frame.description>
 
 
+  <!-- AD Relay Tower -->
+
+  <ARKPPP_ADRelayTower.label>AD基站</ARKPPP_ADRelayTower.label>
+  <ARKPPP_ADRelayTower.description>通过卫星网络将一个或多个“远古能量接收器（AD）”远程连接到卫星导向系统（STS）的无线天线基站。</ARKPPP_ADRelayTower.description>
+  <ARKPPP_ADRelayTower_Blueprint.label>AD基站（蓝图）</ARKPPP_ADRelayTower_Blueprint.label>
+  <ARKPPP_ADRelayTower_Frame.label>AD基站（建造中）</ARKPPP_ADRelayTower_Frame.label>
+  <ARKPPP_ADRelayTower_Frame.description>通过卫星网络将一个或多个“远古能量接收器（AD）”远程连接到卫星导向系统（STS）的无线天线基站。</ARKPPP_ADRelayTower_Frame.description>
+
+
 </LanguageData>
