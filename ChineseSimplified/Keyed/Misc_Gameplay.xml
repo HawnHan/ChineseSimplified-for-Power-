@@ -31,7 +31,7 @@
   <ARKPPP_ClearCurrentAD>取消当前的AD连接</ARKPPP_ClearCurrentAD>
   <ARKPPP_WPNListRow>{0} - {1}W</ARKPPP_WPNListRow>
   <ARKPPP_WPNListRow2>{0} - {1}W (来自派系 {2})</ARKPPP_WPNListRow2>
-  <ARKPPP_WPNListRow3>{0} - {1}W (不安全的广播)</ARKPPP_WPNListRow3>
+  <ARKPPP_WPNListRow3>{0} - {1}W (无担保的广播)</ARKPPP_WPNListRow3>
   <ARKPPP_WirelessPowerSelectorListTitle>可用无线电网列表(WPN)</ARKPPP_WirelessPowerSelectorListTitle>
   <ARKPPP_PowerLevelSelectorListTitle>功率选择</ARKPPP_PowerLevelSelectorListTitle>
   <ARKPPP_PowerLevelEntry>{0} (轨道束的强度)</ARKPPP_PowerLevelEntry>
@@ -117,7 +117,7 @@
   <ARKPPP_CommandARESEMPTarget>ARES EMP</ARKPPP_CommandARESEMPTarget>
 
   <!-- Message -->
-  <ARKPPP_MsgWPNUnsecurised>不安全的WPN广播结束了，安全漏洞已修复。</ARKPPP_MsgWPNUnsecurised>
+  <ARKPPP_MsgWPNUnsecurised>无担保的WPN广播结束了，安全漏洞已修复。</ARKPPP_MsgWPNUnsecurised>
   <ARKPPP_MsgARESNotEnoughtStoredPower>储备能量不足以启动ARES，连接到的WPN需要拥有最少10000W的电池储备电量</ARKPPP_MsgARESNotEnoughtStoredPower>
   <ARKPPP_MsgARES2NotEnoughtStoredPower>储备能量不足以启动ARES 2.0，连接到的WPN需要拥有最少30000W的电池储备电量</ARKPPP_MsgARES2NotEnoughtStoredPower>
   <ARKPPP_MsgARESEMPNotEnoughtStoredPower>储备能量不足以启动ARES EMP，连接到的WPN需要拥有最少20000W的电池储备电量</ARKPPP_MsgARESEMPNotEnoughtStoredPower>
@@ -164,8 +164,8 @@
   <ARKPPP_LetterWPNInterruptionDesc>袭击之后，派系 {0} 将不再为你提供电力，在 {1} 恢复发电机后依旧不会传输电力给你。</ARKPPP_LetterWPNInterruptionDesc>
   <ARKPPP_LetterWPNInterruptionEndDiscount>租用WPN中断结束了</ARKPPP_LetterWPNInterruptionEndDiscount>
   <ARKPPP_LetterWPNInterruptionEndDiscountDesc>派系 {0} 的电力设施再次运转了，为补偿你被剥夺电力的时间，他们同意给你 {1} 白银的优惠。</ARKPPP_LetterWPNInterruptionEndDiscountDesc>
-  <ARKPPP_LetterWPNUnsecured>WPN不安全</ARKPPP_LetterWPNUnsecured>
-  <ARKPPP_LetterWPNUnsecuredDesc>一个 {1}W 的不安全远程WPN可被你接收。该广播将在安全漏洞被发现并修复前持续一段时间。</ARKPPP_LetterWPNUnsecuredDesc>
+  <ARKPPP_LetterWPNUnsecured>WPN无担保</ARKPPP_LetterWPNUnsecured>
+  <ARKPPP_LetterWPNUnsecuredDesc>一个 {1}W 的无担保远程WPN可被你接收。该广播将在安全漏洞被发现并修复前持续一段时间。</ARKPPP_LetterWPNUnsecuredDesc>
   <ARKPPP_LetterARESOverload>ARES超载</ARKPPP_LetterARESOverload>
   <ARKPPP_LetterARESOverload1Desc>启用ARES系统引起了一场爆炸，因为用来启用系统的WPN发射器过载。</ARKPPP_LetterARESOverload1Desc>
   <ARKPPP_LetterARESOverload2Desc>启用ARES系统导致连接的WPN所在无线电网过载，溢出的能量造成了一次或多次爆炸。</ARKPPP_LetterARESOverload2Desc>
@@ -202,7 +202,7 @@
 
 
   <!--Resume dialog-->
-  <ARKPPP_ResumeDialogUnsecureSection>不安全的WPN</ARKPPP_ResumeDialogUnsecureSection>
+  <ARKPPP_ResumeDialogUnsecureSection>无担保的WPN</ARKPPP_ResumeDialogUnsecureSection>
   <ARKPPP_ResumeDialogBuyedSection>租用的WPN</ARKPPP_ResumeDialogBuyedSection>
   <ARKPPP_ResumeDialogSoldSection>出租的WPN</ARKPPP_ResumeDialogSoldSection>
   <ARKPPP_ResumeDialogEmbargoSection>电力禁令</ARKPPP_ResumeDialogEmbargoSection>
@@ -358,6 +358,8 @@
   <ARKPPP_SettingsPBEAttackCooldownMax>能量束攻击后最长等待时间（短期卫星封锁）({0}小时)</ARKPPP_SettingsPBEAttackCooldownMax>
   <ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>STS发生骇入错误前在高温环境运行的时间({0}小时)</ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>
   <ARKPPP_SettingsPBEDisableBlacklisting>禁用行星黑名单事件</ARKPPP_SettingsPBEDisableBlacklisting>
+  <ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>机械战舰无法用轨道束攻击位于厚屋顶(厚山顶)下的目标</ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>
+  <ARKPPP_SettingsLWPNReceptorsDefaultState>默认启用LWPN无线接收开关</ARKPPP_SettingsLWPNReceptorsDefaultState>
 
   <!-- Beam colors -->
   <ARKPPP_BeamColorRed>红色</ARKPPP_BeamColorRed>
