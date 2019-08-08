@@ -360,7 +360,7 @@
   <ARKPPP_SettingsPBEDisableBlacklisting>禁用行星黑名单事件</ARKPPP_SettingsPBEDisableBlacklisting>
   <ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>机械战舰无法用轨道束攻击位于厚屋顶(厚山顶)下的目标</ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>
   <ARKPPP_SettingsLWPNReceptorsDefaultState>默认启用LWPN无线接收开关</ARKPPP_SettingsLWPNReceptorsDefaultState>
-
+  <ARKPPP_SettingsIncidentMechanoidWarshipDisable>禁用机械战舰事件</ARKPPP_SettingsIncidentMechanoidWarshipDisable>
   <!-- Beam colors -->
   <ARKPPP_BeamColorRed>红色</ARKPPP_BeamColorRed>
   <ARKPPP_BeamColorPurple>紫色</ARKPPP_BeamColorPurple>
