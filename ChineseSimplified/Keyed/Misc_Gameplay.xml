@@ -257,9 +257,9 @@
 
 
   <!--ChoiceLetters-->
-  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedAlly>我们对你的行为感到十分失望，你真是令人气愤的盟友，竟然不想支付账单！</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedAlly>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedAlly>我们对你的行为感到十分失望，你真是令人气愤，竟然不想支付账单！</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedAlly>
   <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedNeutral>用这样偷摸的手段你还想与我们保持良好的关系？无法接受！</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedNeutral>
-  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedEnnemy>你这样失败的派系不遵守合同也不奇怪，准备好面对后果吧！</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedEnnemy>
+  <ARKPPP_ChoiceLetterPayBorrowedWPNRefusedEnnemy>你这种可怜者不遵守合同也不奇怪，准备好面对后果吧！</ARKPPP_ChoiceLetterPayBorrowedWPNRefusedEnnemy>
   <ARKPPP_ChoiceLetterPayBorrowedWPNLabel>账单</ARKPPP_ChoiceLetterPayBorrowedWPNLabel>
 
   <ARKPPP_ChoiceLetterPayBorrowedWPNTitle>需支付账单： {0} 白银</ARKPPP_ChoiceLetterPayBorrowedWPNTitle>
@@ -356,7 +356,7 @@
   <ARKPPP_SettingsPBEBeamAttackHot3ChanceTargetError>温度过高(Ⅲ)导致出现轨道导向错误的几率({0}%)</ARKPPP_SettingsPBEBeamAttackHot3ChanceTargetError>
   <ARKPPP_SettingsPBEAttackCooldownMin>能量束攻击后最短等待时间（短期卫星封锁）({0}小时)</ARKPPP_SettingsPBEAttackCooldownMin>
   <ARKPPP_SettingsPBEAttackCooldownMax>能量束攻击后最长等待时间（短期卫星封锁）({0}小时)</ARKPPP_SettingsPBEAttackCooldownMax>
-  <ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>STS发生骇入错误前在高温环境运行的时间({0}小时)</ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>
+  <ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>STS高温运行({0}小时)后可能产生骇入错误</ARKPPP_SettingsSTSHotNbHoursBeforehackFailPossibility>
   <ARKPPP_SettingsPBEDisableBlacklisting>禁用行星黑名单事件</ARKPPP_SettingsPBEDisableBlacklisting>
   <ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>机械战舰无法用轨道束攻击位于厚屋顶(厚山顶)下的目标</ARKPPP_SettingsMechanoidWarshipCannotHitTargetUnderMoutain>
   <ARKPPP_SettingsLWPNReceptorsDefaultState>默认启用LWPN无线接收开关</ARKPPP_SettingsLWPNReceptorsDefaultState>
